@@ -13,6 +13,7 @@
 		C03A70AD1AC9D4E9002ECF15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03A70AC1AC9D4E9002ECF15 /* Images.xcassets */; };
 		C03A70B01AC9D4E9002ECF15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03A70AE1AC9D4E9002ECF15 /* LaunchScreen.xib */; };
 		C03A70BC1AC9D4E9002ECF15 /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A70BB1AC9D4E9002ECF15 /* BouncerTests.swift */; };
+		C03A70C61AC9DAD6002ECF15 /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A70C51AC9DAD6002ECF15 /* BouncerBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C03A70B51AC9D4E9002ECF15 /* BouncerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03A70BA1AC9D4E9002ECF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03A70BB1AC9D4E9002ECF15 /* BouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerTests.swift; sourceTree = "<group>"; };
+		C03A70C51AC9DAD6002ECF15 /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,7 @@
 			children = (
 				C03A70A51AC9D4E9002ECF15 /* AppDelegate.swift */,
 				C03A70A71AC9D4E9002ECF15 /* ViewController.swift */,
-				C03A70A91AC9D4E9002ECF15 /* Main.storyboard */,
-				C03A70AC1AC9D4E9002ECF15 /* Images.xcassets */,
-				C03A70AE1AC9D4E9002ECF15 /* LaunchScreen.xib */,
+				C03A70C51AC9DAD6002ECF15 /* BouncerBehavior.swift */,
 				C03A70A31AC9D4E9002ECF15 /* Supporting Files */,
 			);
 			path = Bouncer;
@@ -90,6 +90,9 @@
 		C03A70A31AC9D4E9002ECF15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C03A70A91AC9D4E9002ECF15 /* Main.storyboard */,
+				C03A70AE1AC9D4E9002ECF15 /* LaunchScreen.xib */,
+				C03A70AC1AC9D4E9002ECF15 /* Images.xcassets */,
 				C03A70A41AC9D4E9002ECF15 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 			files = (
 				C03A70A81AC9D4E9002ECF15 /* ViewController.swift in Sources */,
 				C03A70A61AC9D4E9002ECF15 /* AppDelegate.swift in Sources */,
+				C03A70C61AC9DAD6002ECF15 /* BouncerBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				C03A70C11AC9D4E9002ECF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C03A70C21AC9D4E9002ECF15 /* Build configuration list for PBXNativeTarget "BouncerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				C03A70C41AC9D4E9002ECF15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
